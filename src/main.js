@@ -18,4 +18,5 @@ firebase.initializeApp(firebaseConfig)
 
 new Vue({
   render: h => h(App),
+  template: '<App/>',
 }).$mount('#app')
